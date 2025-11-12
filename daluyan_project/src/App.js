@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 import VaultPage from './Vaultpage.js';
 import CounterPage from './Counterpage.js';
