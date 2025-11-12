@@ -18,6 +18,12 @@ const pool = new Pool({
   }
 });
 
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://localhost:4000',
+  'https://daluyan-frontend.onrender.com'
+];
+
 // 4. Set up Middleware
 app.use(cors()); // Use CORS to allow cross-origin requests
 app.use(express.json()); // Allow the server to understand JSON data
